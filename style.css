@@ -11,7 +11,6 @@
 .navbar{
     width: 100%;
     position: absolute;
-   
 }
 
 .nav-elements{
@@ -19,12 +18,10 @@
     width: 70%;
     float: left;
     align-items: center;
-   
 }
 
 .nav-elements ul{
     float: left;
-    
 }
 
 .nav-elements li{
@@ -35,7 +32,6 @@
     font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     margin-right: 25PX;
-    
 }
 
 .nav-logo{
@@ -53,8 +49,7 @@
 
 .nav-logo img{
     height: 150px;
-    padding-right:40px;
-    
+    padding-right:40px; 
 }
 
 
@@ -73,19 +68,16 @@
 .cover-image img{
     width: 100%;
     height: 100vh;
-    object-fit: cover;
-   
+    object-fit: cover; 
 }
 
 .cover h4{
-    
     font-weight: 700;
     font-size: 25px;
     text-align: center;
     color: white;
 }
 .cover h1{
-    
     font-weight: 700;
     font-size: 85px;
     text-align: center;
@@ -100,15 +92,12 @@
     font-weight: 700;
     cursor: pointer;
     transition: .7s;
-    
 }
 .cover button:hover {
     background-color: transparent;
-    
     color: #f60;
     transition: background-color .7s;
-    
-  }
+}
 
 .body-container{
     padding: 30px;
@@ -145,8 +134,6 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     border-style: solid;
-    
-    
 }
 
 
@@ -186,7 +173,6 @@
     margin-bottom: 50px;
 }
 .body-picture img{
-    
     width: 95%;
 }
 
@@ -200,25 +186,26 @@
 }
 
 .cards{
-    
     flex-direction: column;
     padding: 10px;
 }
 
 .cards img{  
  width: 100%;
+ cursor: pointer;
 }
 
 .cards h4{
-    
     font-size: 18px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .cards h1{
     font-weight: 700;
     font-size: 28px;
     margin-top: 10px;
+    cursor: pointer;
     
 }
 
@@ -234,64 +221,65 @@
 }
 
 .long-cards{
-    
     flex-direction: column;
     padding: 10px;
 }
 
 .long-cards img{  
  width: 100%;
+ cursor: pointer;
 }
 
 .long-cards h4{
-    
     font-size: 18px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .long-cards h1{
     font-weight: 700;
     font-size: 35px;
     margin-top: 10px;
-    
+    transition: .5s;
+    cursor: pointer;
+    cursor: pointer;
 }
 
 .long-cards h5{
-    
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 2;
     font-size: 16px;
+    cursor: pointer;
 }
 
+.long-cards h1:hover{
+    color: #f60;
+    transition: .5s ease;
+}
 
 .lower-body{
     padding: 10px;
     display: grid;
     margin-top: 80px;
-
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 230px 230px;
-    
-    
 }
 
 .pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 .pic video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
-
-
-
 .pic5{
-
     background-color: rgb(0, 0, 0);
     grid-column-start: 3;
     grid-column-end: 5;
@@ -329,6 +317,7 @@
     font-weight: 600;
     margin-top: 35px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .pic5 button:hover{
@@ -336,8 +325,6 @@
     color: #f60;
     transition: .5s;
 }
-
-
 
 .bottom-body{
     margin-top: 50px;
@@ -348,12 +335,13 @@
     align-items: center;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
-    
 }
 
 .signup-button{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-right: 100px;
 }
 
 .signup-button h3{
@@ -368,7 +356,23 @@
     border-color: #f60;
     color: #f60;
     font-weight: 700;
-    
+    position: absolute;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.signup-button button:hover{
+    padding-right: 80px;
+    transition: .5s;
+    background-color: #f60;
+    color: white;
+}
+
+.signup-button button:hover::after{
+    content: '\f061';
+    position: absolute;
+    right: 30px;
+    font-family: Arial, FontAwesome;
 }
 
 .hr hr{
@@ -376,7 +380,6 @@
    width: 2000px;
     border: 0;
     border-top: 1px solid #c9c7c7;
- 
 }
 
 
@@ -395,15 +398,12 @@
     width: 100%;
     background-size: cover;
     color: white;
-    
-    
 }
 
 .footer{
     padding: 0 30px;
     margin-top: 50px;
     font-family: 'Rajdhani', sans-serif;
-    
 }
 
 
@@ -418,6 +418,11 @@
     font-size: 25px;
 }
 
+.footer h4:hover{
+    color: #f60;
+    cursor: pointer;
+}
+
 .footer h4{
     font-size: 20px;
     font-weight: 500;
@@ -428,6 +433,7 @@
     display: inline;
     padding: 10px; 
     font-size: 25px;
+    cursor: pointer;
 }
 
 .footer-hr{
@@ -447,7 +453,6 @@
     align-items: center;
     margin-bottom: 40px;
     padding-left: 40px;
-    
 }
 
 .copyright h6{
@@ -455,7 +460,6 @@
     font-weight: 300;
     font-size: 15px;
     display: flex;
-    
 }
 
 .back-to-top{
